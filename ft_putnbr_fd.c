@@ -6,7 +6,7 @@
 /*   By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/03 17:12:04 by gissao-m          #+#    #+#             */
-/*   Updated: 2022/06/03 17:24:13 by gissao-m         ###   ########.fr       */
+/*   Updated: 2022/06/08 16:56:57 by gissao-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_putchar_int(int i, int fd)
 	write(fd, &c, 1);
 }
 
-void    ft_putnbr_fd(int n, int fd)
+void	ft_putnbr_fd(int n, int fd)
 {
 	int	i;
 
@@ -33,7 +33,7 @@ void    ft_putnbr_fd(int n, int fd)
 	}
 	if (n < 0)
 	{
-		ft_putchar_fd('-', fd); // aspas simples para um caracatere, aspas duplas pra array.
+		ft_putchar_fd('-', fd);
 		n = n * -1;
 	}
 	while (i <= n / 10)

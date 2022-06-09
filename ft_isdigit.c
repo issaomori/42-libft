@@ -6,15 +6,15 @@
 /*   By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 12:47:37 by gissao-m          #+#    #+#             */
-/*   Updated: 2022/06/01 16:42:12 by gissao-m         ###   ########.fr       */
+/*   Updated: 2022/06/08 16:29:31 by gissao-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isdigit (int i)
+int	ft_isdigit(int i)
 {
-    if (i >= 48 && i <= 57)
-        return (1);
-    return (0);
+	if (i >= 48 && i <= 57)
+		return (1);
+	return (0);
 }

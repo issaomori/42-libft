@@ -6,15 +6,15 @@
 /*   By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 14:20:49 by gissao-m          #+#    #+#             */
-/*   Updated: 2022/06/01 16:42:15 by gissao-m         ###   ########.fr       */
+/*   Updated: 2022/06/08 16:29:59 by gissao-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isprint (int i)
+int	ft_isprint(int i)
 {
-    if (i >= 32 && i <= 126)
-        return (1);
-    return (0);
+	if (i >= 32 && i <= 126)
+		return (1);
+	return (0);
 }

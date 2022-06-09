@@ -6,14 +6,13 @@
 /*   By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 18:36:13 by gissao-m          #+#    #+#             */
-/*   Updated: 2022/06/02 14:33:52 by gissao-m         ###   ########.fr       */
+/*   Updated: 2022/06/08 16:20:22 by gissao-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "libft.h"
 
-void ft_bzero (void *str, size_t n)
+void	ft_bzero(void *str, size_t n)
 {
-    ft_memset(str, '\0', n);
+	ft_memset(str, '\0', n);
 }
