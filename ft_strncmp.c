@@ -6,13 +6,12 @@
 /*   By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/20 16:32:15 by gissao-m          #+#    #+#             */
-/*   Updated: 2022/06/08 17:07:53 by gissao-m         ###   ########.fr       */
+/*   Updated: 2022/06/15 11:25:07 by gissao-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-//int	ft_strncmp(char *s1, char *s2, unsigned int n)
 int	ft_strncmp(const char *str1, const char *str2, size_t n)
 {
 	size_t	count;

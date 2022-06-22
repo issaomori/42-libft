@@ -6,17 +6,15 @@
 /*   By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 14:53:00 by gissao-m          #+#    #+#             */
-/*   Updated: 2022/06/08 17:15:04 by gissao-m         ###   ########.fr       */
+/*   Updated: 2022/06/21 20:06:47 by gissao-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
-# include <stdlib.h>
 # include <unistd.h>
-# include <string.h>
+# include <stdlib.h>
 
 int		ft_isdigit(int i);
 int		ft_isalpha(int i);
@@ -24,11 +22,11 @@ int		ft_isalnum(int i);
 int		ft_isascii(int i);
 int		ft_isprint(int i);
 int		ft_strlen(const char *str);
-void	*ft_memset(void *str, int c, size_t n);
+void	*ft_memset(void *ptr, int c, size_t n);
 void	ft_bzero(void *str, size_t n);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
-size_t	ft_strlcpy(char *dest, const char *src, size_t size);
+size_t	ft_strlcpy(char *dst, const char *src, size_t d_size);
 size_t	ft_strlcat(char *dest, const char *src, size_t size);
 int		ft_toupper(int change);
 int		ft_tolower(int change);

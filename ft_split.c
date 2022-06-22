@@ -6,7 +6,7 @@
 /*   By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/06 14:41:11 by gissao-m          #+#    #+#             */
-/*   Updated: 2022/06/08 16:59:08 by gissao-m         ###   ########.fr       */
+/*   Updated: 2022/06/13 11:08:31 by gissao-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,8 +81,8 @@ char	**ft_split(char const *s, char c)
 	while (s[index] != '\0')
 	{
 		while (s[index] == c)
-		index++;
-	posc = index ;
+			index++;
+		posc = index;
 		while (s[index] != '\0' && s[index] != c)
 			index++;
 		if (index > posc)

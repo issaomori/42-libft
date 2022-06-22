@@ -6,13 +6,13 @@
 #    By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/05/27 14:40:41 by gissao-m          #+#    #+#              #
-#    Updated: 2022/06/07 15:40:03 by gissao-m         ###   ########.fr        #
+#    Updated: 2022/06/21 20:13:00 by gissao-m         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libft.a
 
-HEADER = ./libft.h 
+HEADER = ./libft.h
 
 SRCS = ./ft_isalpha.c \
 		./ft_isdigit.c \
@@ -57,7 +57,7 @@ OBJS = ${SRCS:.c=.o}
 
 all:        $(NAME)
 
-$(NAME):    $(OBJS) $(BONUS_O)
+$(NAME):    $(OBJS)
 			ar -rcs $(NAME) $(OBJS)
 
 .c.o:
