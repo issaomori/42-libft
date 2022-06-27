@@ -6,7 +6,7 @@
 /*   By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/06 14:41:11 by gissao-m          #+#    #+#             */
-/*   Updated: 2022/06/13 11:08:31 by gissao-m         ###   ########.fr       */
+/*   Updated: 2022/06/27 13:49:18 by gissao-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static char	*ft_strncpy(char *dst, const char *src, size_t n)
 	return (dst);
 }
 
-static char	counterwords(const char *s, char c)
+static int	counterwords(const char *s, char c)
 {
 	int	index;
 	int	count;
