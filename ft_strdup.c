@@ -6,13 +6,13 @@
 /*   By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/02 17:27:47 by gissao-m          #+#    #+#             */
-/*   Updated: 2022/06/08 17:00:58 by gissao-m         ###   ########.fr       */
+/*   Updated: 2022/06/26 22:22:34 by gissao-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strdup(char *src)
+char	*ft_strdup(const char *src)
 {
 	char	*dest;
 	int		count_size;

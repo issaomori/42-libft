@@ -6,7 +6,7 @@
 /*   By: gissao-m <gissao-m@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/27 14:53:00 by gissao-m          #+#    #+#             */
-/*   Updated: 2022/06/21 20:06:47 by gissao-m         ###   ########.fr       */
+/*   Updated: 2022/06/26 22:50:27 by gissao-m         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void	*ft_memchr(const void *str, int c, size_t n);
 int		ft_memcmp(const void *str1, const void *str2, size_t n);
 char	*ft_strnstr(const char *str, const char *find, size_t len);
 int		ft_atoi(const char *str);
-char	*ft_strdup(char *src);
+char	*ft_strdup(const char *src);
 void	*ft_calloc(size_t number, size_t size);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strjoin(char const *s1, char const *s2);
